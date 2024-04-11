@@ -2423,9 +2423,10 @@ nav {
   }
 }
 
-.technical-services{
+.technical-services {
   padding: 50px 0px;
-  h2{
+
+  h2 {
     color: #FFF;
     text-align: center;
     text-shadow: -4.232px 1.411px 3.527px rgba(0, 0, 0, 0.21);
@@ -2433,30 +2434,36 @@ nav {
     font-size: 35px;
     font-style: normal;
     font-weight: 700;
-    line-height: 47px; /* 134.286% */
-    span{
-    background: linear-gradient(90deg, #383070 -17.09%, #E34576 42.58%, #F29C48 102.8%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Poppins;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 47px;
+
+    /* 134.286% */
+    span {
+      background: linear-gradient(90deg, #383070 -17.09%, #E34576 42.58%, #F29C48 102.8%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: Poppins;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 47px;
     }
   }
-  #tech-bg{
+
+  #tech-bg {
     background-image: url(../Images/web-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 40px 0px;
   }
-  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+  .nav-pills .nav-link.active,
+  .nav-pills .show>.nav-link {
     color: #fff;
     background-color: inherit;
   }
+
   .nav-link {
     display: block;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -2465,19 +2472,22 @@ nav {
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
-    line-height: 25px; /* 100% */
+    line-height: 25px;
+    /* 100% */
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
   }
-  h3{
+
+  h3 {
     color: #FFF;
-  text-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Poppins;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 40px; /* 100% */
-  text-transform: uppercase;
-  text-align: center;
+    text-shadow: -3px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    /* 100% */
+    text-transform: uppercase;
+    text-align: center;
   }
 }
 
@@ -3643,7 +3653,8 @@ footer {
       font-size: 16px;
       font-style: normal;
       font-weight: 275;
-      line-height: 20px; /* 125% */
+      line-height: 20px;
+      /* 125% */
     }
 
     h3 {
@@ -3653,11 +3664,12 @@ footer {
       font-style: normal;
       font-weight: 275;
       line-height: 64.645px;
+
       /* 100% */
-     @media (max-width:991px) {
-      font-size: 32px;
-      line-height: 28px;
-     }
+      @media (max-width:991px) {
+        font-size: 32px;
+        line-height: 28px;
+      }
     }
 
     span {
@@ -3672,17 +3684,18 @@ footer {
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+
       @media (max-width:991px) {
         font-size: 42px;
         line-height: 30px;
       }
     }
 
-    .fields{
+    .fields {
       margin-bottom: 28px;
     }
 
-    button{
+    button {
       background: linear-gradient(93deg, #122B6F -8.3%, #E64676 55.97%, #FCDE26 127.1%);
       width: 100%;
       padding: 11px;
@@ -3693,31 +3706,34 @@ footer {
       font-size: 20px;
       font-style: normal;
       font-weight: 700;
-      line-height: 20px; /* 100% */
+      line-height: 20px;
+      /* 100% */
     }
   }
 }
 
-.section-title{
-  h2{
+.section-title {
+  h2 {
     color: #FFF;
-text-align: center;
-text-shadow: -4.232px 1.411px 3.527px rgba(0, 0, 0, 0.21);
-font-family: Poppins;
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: 47px; /* 134.286% */
-span{
-  background: linear-gradient(90deg, #383070 -17.09%, #E34576 42.58%, #F29C48 102.8%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-family: Poppins;
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: 47px;
-}
+    text-align: center;
+    text-shadow: -4.232px 1.411px 3.527px rgba(0, 0, 0, 0.21);
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+
+    /* 134.286% */
+    span {
+      background: linear-gradient(90deg, #383070 -17.09%, #E34576 42.58%, #F29C48 102.8%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: Poppins;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 47px;
+    }
   }
 }

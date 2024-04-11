@@ -87,11 +87,12 @@
             .departments .nav-link h4 {
                 transition: 0.3s;
                 color: #FFF;
-font-family: Poppins;
-font-size: 25px;
-font-style: normal;
-font-weight: 600;
-line-height: 33px; /* 132% */
+                font-family: Poppins;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 33px;
+                /* 132% */
             }
 
             .departments .nav-link p {
@@ -122,18 +123,19 @@ line-height: 33px; /* 132% */
                 }
             }
 
-            
+
 
             .departments .tab-pane p {
-            
-    color: #FFF;
-text-shadow: 0px 5.929px 6.226px rgba(0, 0, 0, 0.30);
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px; /* 156.25% */
-  
+
+                color: #FFF;
+                text-shadow: 0px 5.929px 6.226px rgba(0, 0, 0, 0.30);
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+                /* 156.25% */
+
             }
 
             .departments .tab-pane p:last-child {
@@ -155,7 +157,8 @@ line-height: 25px; /* 156.25% */
         <div class="container py-5">
             <div class="section-title">
                 <h2>Let's Execute Your IDEA in to REALTY with Our <br>
-<span>Technology Development</span></h2>
+                    <span>Technology Development</span>
+                </h2>
             </div>
         </div>
         <section id="departments" class="departments py-5">
